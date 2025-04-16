@@ -1,0 +1,41 @@
+body {
+background-color: rgb(173, 207, 207);
+}
+
+h1 {color: brown;
+text-align: center;
+font-size: 30px ;
+}
+
+p {font-size: 50px;
+text-align: justify;
+}
+
+ul {
+line-height: 30px;
+text-decoration: underline;
+}
+
+.foto {
+border-radius: 30px;
+
+}
+
+table {border-color: blueviolet;
+box-shadow: 0cqmax;
+
+}
+
+caption {text-align: center;
+font-weight: bolder;
+}
+
+a:hover {
+color: brown;
+
+}
+
+msg.innerText {
+
+font-size: 500px;
+}

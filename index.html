@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>MEU PRIMEIRO HTML</title>
+<link rel="stylesheet" href="estilo.css">   
+</head>
+
+<body>
+    <H1>RODRIGO ESCANDURA GIUSTI</H1>
+
+    <p>Olá, me chamo Rodrigo Escandura Giusti, tenho 35 anos, moro na cidade de São Paulo. Sou formado em Administração de Empresas e estou agora em 2025 migrando para a área de tecnologia.</p>
+    
+    <button id="botao">CLIQUE AQUI PARA VER UMA MENSAGEM</button>
+    <div id="mensagem"></div>
+
+    <ul>MUSCULAÇÃO</ul>
+    <ul>FUTEBOL</ul>
+    <ul>PING PONG</ul>
+   
+    <img src = "musculacao.png" class="foto" height="150">
+    
+    <br>
+    <br>
+        <table border="2">
+            <br>
+            <caption>PAISES QUE GOSTARIA DE VISITAR</caption>
+            <br>
+            
+
+            <tr>
+                <th>PAIS</th>
+                <th>BANDEIRA</th>
+                        
+            </tr>
+            <tr>
+                <td>ESTADOS UNIDOS</td>
+                <td><img src="eua.png" alt="BANDEIRA eua" width="90PX"></td>
+                
+            </tr>
+            <tr>
+                <td>ITALIA</td>
+                <td><img src="italia.png" alt="BANDEIRA ITALIA" width="90PX"></td>
+            </tr>
+            <tr>
+                <td>FRANÇA</td>
+                <td><img src="frança.png" alt="BANDEIRA FRANÇA" width="90PX"></td>
+            </tr>
+        </table>
+
+        <br>
+
+       <a href="http://www.google.com.br">Google</a>
+           
+       <script>
+        const botao = document.getElementById("botao");
+    
+        botao.addEventListener("click", function () {
+          const msg = document.getElementById("mensagem");
+          msg.innerText = "ESTUDE MUITO TODOS OS DIAS E NÃO DESISTA!";
+        });
+</script>
+            
+</body>
+
+</html>
